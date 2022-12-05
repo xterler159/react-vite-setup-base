@@ -1,0 +1,1 @@
+# React + vite + tests (vitest, react-testing-lib) initial setup ⚡️
