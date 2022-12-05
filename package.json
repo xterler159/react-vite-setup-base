@@ -12,8 +12,12 @@
     "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.4",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -22,6 +26,7 @@
     "@types/jest": "^29.2.4",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
+    "@types/sort-by": "^1.2.0",
     "@vitejs/plugin-react": "^2.2.0",
     "@vitest/coverage-c8": "^0.25.3",
     "@vitest/ui": "^0.25.3",
