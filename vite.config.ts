@@ -1,6 +1,6 @@
+import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import checker from 'vite-plugin-checker'
-import react from '@vitejs/plugin-react'
 import eslint from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
