@@ -1,21 +1,12 @@
-/// <reference types="vitest" />
-
-import { defineConfig } from "vite";
-import checker from "vite-plugin-checker";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import checker from 'vite-plugin-checker'
+import react from '@vitejs/plugin-react'
+import eslint from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), checker({ typescript: true })],
+  plugins: [react(), checker({ typescript: true }), eslint()],
   server: {
-    port: 3000
+    port: 3000,
   },
-  test: {
-    globals: true,
-    environment: 'jsdom',
-    setupFiles: './src/setup.ts',
-    // you might want to disable it, if you don't have tests that rely on CSS
-    // since parsing CSS is slow
-    css: false,
-  },
-});
+})
