@@ -23,3 +23,12 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+# yarn 4.x.x
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
